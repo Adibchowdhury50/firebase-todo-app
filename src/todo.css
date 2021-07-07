@@ -1,0 +1,50 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo__title{
+    color: blue;
+    margin: 1rem;
+}
+.todo__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo__btn{
+    margin-top: 1rem;
+    width: 6rem;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+.todo__btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.todo__data{
+    width: 100%;
+    padding-top: 4rem;
+
+}
+.todo__data ul li{
+    list-style: none;
+    background-color: coral;
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.todo__delete{
+    background-color: red;
+    border: none;
+   
+
+}
+.todo__delete:hover{
+    cursor: pointer;
+    
+}
